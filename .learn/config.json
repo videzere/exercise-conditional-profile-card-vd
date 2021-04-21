@@ -1,0 +1,4272 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "http://localhost",
+        "editor": {
+            "mode": "standalone",
+            "version": "1.0.61"
+        },
+        "dirPath": "./.learn",
+        "configPath": "bc.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "title": "Conditional Profile Card Generator",
+    "slug": "conditional-profile-card",
+    "status": "published",
+    "difficulty": "beginner",
+    "translations": [
+        "es",
+        "us"
+    ],
+    "technologies": [
+        "conditionals",
+        "conditional-rendering"
+    ],
+    "preview": "https://github.com/breatheco-de/conditional-profile-card/blob/master/preview.gif?raw=true",
+    "syntax": "javascript",
+    "solution": "https://github.com/breatheco-de/exercise-conditional-profile-card/tree/solution",
+    "duration": 4,
+    "description": "Practice conditions, render a profile card based on a series of variables that could change in value during runtime like: username, avatar, etc.",
+    "talents": [
+        {
+            "badge": "identator",
+            "points": 6
+        },
+        {
+            "badge": "tag-master",
+            "points": 3
+        },
+        {
+            "badge": "window-lover",
+            "points": 3
+        },
+        {
+            "badge": "abc",
+            "points": 5
+        },
+        {
+            "badge": "functional-developer",
+            "points": 5
+        }
+    ],
+    "session": 7694189904742927000,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "node_modules",
+            "slug": "node_modules",
+            "translations": {},
+            "language": "node",
+            "entry": null,
+            "title": "node_modules",
+            "graded": false,
+            "files": [
+                {
+                    "path": "node_modules/.bin",
+                    "name": ".bin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@babel",
+                    "name": "@babel",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@types",
+                    "name": "@types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@webassemblyjs",
+                    "name": "@webassemblyjs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@xtuc",
+                    "name": "@xtuc",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/abbrev",
+                    "name": "abbrev",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/accepts",
+                    "name": "accepts",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/acorn",
+                    "name": "acorn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/acorn-jsx",
+                    "name": "acorn-jsx",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ajv",
+                    "name": "ajv",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ajv-errors",
+                    "name": "ajv-errors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ajv-keywords",
+                    "name": "ajv-keywords",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/alphanum-sort",
+                    "name": "alphanum-sort",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/amdefine",
+                    "name": "amdefine",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ansi-colors",
+                    "name": "ansi-colors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ansi-escapes",
+                    "name": "ansi-escapes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ansi-html",
+                    "name": "ansi-html",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ansi-regex",
+                    "name": "ansi-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ansi-styles",
+                    "name": "ansi-styles",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/anymatch",
+                    "name": "anymatch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/aproba",
+                    "name": "aproba",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/are-we-there-yet",
+                    "name": "are-we-there-yet",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/argparse",
+                    "name": "argparse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/arr-diff",
+                    "name": "arr-diff",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/arr-flatten",
+                    "name": "arr-flatten",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/arr-union",
+                    "name": "arr-union",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/array-find-index",
+                    "name": "array-find-index",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/array-flatten",
+                    "name": "array-flatten",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/array-union",
+                    "name": "array-union",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/array-uniq",
+                    "name": "array-uniq",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/array-unique",
+                    "name": "array-unique",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/arrify",
+                    "name": "arrify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/asn1",
+                    "name": "asn1",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/asn1.js",
+                    "name": "asn1.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/assert",
+                    "name": "assert",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/assert-plus",
+                    "name": "assert-plus",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/assign-symbols",
+                    "name": "assign-symbols",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/async",
+                    "name": "async",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/async-each",
+                    "name": "async-each",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/async-foreach",
+                    "name": "async-foreach",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/async-limiter",
+                    "name": "async-limiter",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/asynckit",
+                    "name": "asynckit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/atob",
+                    "name": "atob",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/autoprefixer",
+                    "name": "autoprefixer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/aws-sign2",
+                    "name": "aws-sign2",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/aws4",
+                    "name": "aws4",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel",
+                    "name": "babel",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-code-frame",
+                    "name": "babel-code-frame",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-core",
+                    "name": "babel-core",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-eslint",
+                    "name": "babel-eslint",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-generator",
+                    "name": "babel-generator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-builder-binary-assignment-operator-visitor",
+                    "name": "babel-helper-builder-binary-assignment-operator-visitor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-call-delegate",
+                    "name": "babel-helper-call-delegate",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-define-map",
+                    "name": "babel-helper-define-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-explode-assignable-expression",
+                    "name": "babel-helper-explode-assignable-expression",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-function-name",
+                    "name": "babel-helper-function-name",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-get-function-arity",
+                    "name": "babel-helper-get-function-arity",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-hoist-variables",
+                    "name": "babel-helper-hoist-variables",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-optimise-call-expression",
+                    "name": "babel-helper-optimise-call-expression",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-regex",
+                    "name": "babel-helper-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-remap-async-to-generator",
+                    "name": "babel-helper-remap-async-to-generator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helper-replace-supers",
+                    "name": "babel-helper-replace-supers",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-helpers",
+                    "name": "babel-helpers",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-loader",
+                    "name": "babel-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-messages",
+                    "name": "babel-messages",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-check-es2015-constants",
+                    "name": "babel-plugin-check-es2015-constants",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-syntax-async-functions",
+                    "name": "babel-plugin-syntax-async-functions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-syntax-exponentiation-operator",
+                    "name": "babel-plugin-syntax-exponentiation-operator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-syntax-flow",
+                    "name": "babel-plugin-syntax-flow",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-syntax-trailing-function-commas",
+                    "name": "babel-plugin-syntax-trailing-function-commas",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-async-to-generator",
+                    "name": "babel-plugin-transform-async-to-generator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-arrow-functions",
+                    "name": "babel-plugin-transform-es2015-arrow-functions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-block-scoped-functions",
+                    "name": "babel-plugin-transform-es2015-block-scoped-functions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-block-scoping",
+                    "name": "babel-plugin-transform-es2015-block-scoping",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-classes",
+                    "name": "babel-plugin-transform-es2015-classes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-computed-properties",
+                    "name": "babel-plugin-transform-es2015-computed-properties",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-destructuring",
+                    "name": "babel-plugin-transform-es2015-destructuring",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-duplicate-keys",
+                    "name": "babel-plugin-transform-es2015-duplicate-keys",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-for-of",
+                    "name": "babel-plugin-transform-es2015-for-of",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-function-name",
+                    "name": "babel-plugin-transform-es2015-function-name",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-literals",
+                    "name": "babel-plugin-transform-es2015-literals",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-modules-amd",
+                    "name": "babel-plugin-transform-es2015-modules-amd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-modules-commonjs",
+                    "name": "babel-plugin-transform-es2015-modules-commonjs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-modules-systemjs",
+                    "name": "babel-plugin-transform-es2015-modules-systemjs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-modules-umd",
+                    "name": "babel-plugin-transform-es2015-modules-umd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-object-super",
+                    "name": "babel-plugin-transform-es2015-object-super",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-parameters",
+                    "name": "babel-plugin-transform-es2015-parameters",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-shorthand-properties",
+                    "name": "babel-plugin-transform-es2015-shorthand-properties",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-spread",
+                    "name": "babel-plugin-transform-es2015-spread",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-sticky-regex",
+                    "name": "babel-plugin-transform-es2015-sticky-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-template-literals",
+                    "name": "babel-plugin-transform-es2015-template-literals",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-typeof-symbol",
+                    "name": "babel-plugin-transform-es2015-typeof-symbol",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-es2015-unicode-regex",
+                    "name": "babel-plugin-transform-es2015-unicode-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-exponentiation-operator",
+                    "name": "babel-plugin-transform-exponentiation-operator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-flow-strip-types",
+                    "name": "babel-plugin-transform-flow-strip-types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-regenerator",
+                    "name": "babel-plugin-transform-regenerator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-plugin-transform-strict-mode",
+                    "name": "babel-plugin-transform-strict-mode",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-preset-env",
+                    "name": "babel-preset-env",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-preset-flow",
+                    "name": "babel-preset-flow",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-register",
+                    "name": "babel-register",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-runtime",
+                    "name": "babel-runtime",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-template",
+                    "name": "babel-template",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-traverse",
+                    "name": "babel-traverse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babel-types",
+                    "name": "babel-types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/babylon",
+                    "name": "babylon",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/balanced-match",
+                    "name": "balanced-match",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/base",
+                    "name": "base",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/base64-js",
+                    "name": "base64-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/batch",
+                    "name": "batch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bc-console",
+                    "name": "bc-console",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bcrypt-pbkdf",
+                    "name": "bcrypt-pbkdf",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/big.js",
+                    "name": "big.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/binary-extensions",
+                    "name": "binary-extensions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/block-stream",
+                    "name": "block-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bluebird",
+                    "name": "bluebird",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bn.js",
+                    "name": "bn.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/body-parser",
+                    "name": "body-parser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bonjour",
+                    "name": "bonjour",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/boolbase",
+                    "name": "boolbase",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bootstrap",
+                    "name": "bootstrap",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/brace-expansion",
+                    "name": "brace-expansion",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/braces",
+                    "name": "braces",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/breathecode-dom",
+                    "name": "breathecode-dom",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/brorand",
+                    "name": "brorand",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-aes",
+                    "name": "browserify-aes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-cipher",
+                    "name": "browserify-cipher",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-des",
+                    "name": "browserify-des",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-rsa",
+                    "name": "browserify-rsa",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-sign",
+                    "name": "browserify-sign",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserify-zlib",
+                    "name": "browserify-zlib",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/browserslist",
+                    "name": "browserslist",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/buffer",
+                    "name": "buffer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/buffer-from",
+                    "name": "buffer-from",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/buffer-indexof",
+                    "name": "buffer-indexof",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/buffer-xor",
+                    "name": "buffer-xor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/builtin-modules",
+                    "name": "builtin-modules",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/builtin-status-codes",
+                    "name": "builtin-status-codes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bytes",
+                    "name": "bytes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cacache",
+                    "name": "cacache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cache-base",
+                    "name": "cache-base",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/caller-path",
+                    "name": "caller-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/callsites",
+                    "name": "callsites",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/camel-case",
+                    "name": "camel-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/camelcase",
+                    "name": "camelcase",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/camelcase-keys",
+                    "name": "camelcase-keys",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/caniuse-api",
+                    "name": "caniuse-api",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/caniuse-db",
+                    "name": "caniuse-db",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/caniuse-lite",
+                    "name": "caniuse-lite",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/caseless",
+                    "name": "caseless",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/chalk",
+                    "name": "chalk",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/chardet",
+                    "name": "chardet",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/chokidar",
+                    "name": "chokidar",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/chownr",
+                    "name": "chownr",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/chrome-trace-event",
+                    "name": "chrome-trace-event",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cipher-base",
+                    "name": "cipher-base",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/circular-json",
+                    "name": "circular-json",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/clap",
+                    "name": "clap",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/class-utils",
+                    "name": "class-utils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/clean-css",
+                    "name": "clean-css",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cli-cursor",
+                    "name": "cli-cursor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cli-width",
+                    "name": "cli-width",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cliui",
+                    "name": "cliui",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/clone",
+                    "name": "clone",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/clone-deep",
+                    "name": "clone-deep",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/co",
+                    "name": "co",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/coa",
+                    "name": "coa",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/code-point-at",
+                    "name": "code-point-at",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/collection-visit",
+                    "name": "collection-visit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/color",
+                    "name": "color",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/color-convert",
+                    "name": "color-convert",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/color-name",
+                    "name": "color-name",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/color-string",
+                    "name": "color-string",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/colormin",
+                    "name": "colormin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/colors",
+                    "name": "colors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/combined-stream",
+                    "name": "combined-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/commander",
+                    "name": "commander",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/commondir",
+                    "name": "commondir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/component-emitter",
+                    "name": "component-emitter",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/compressible",
+                    "name": "compressible",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/compression",
+                    "name": "compression",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/concat-map",
+                    "name": "concat-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/concat-stream",
+                    "name": "concat-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/connect-history-api-fallback",
+                    "name": "connect-history-api-fallback",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/console-browserify",
+                    "name": "console-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/console-control-strings",
+                    "name": "console-control-strings",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/constants-browserify",
+                    "name": "constants-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/content-disposition",
+                    "name": "content-disposition",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/content-type",
+                    "name": "content-type",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/convert-source-map",
+                    "name": "convert-source-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cookie",
+                    "name": "cookie",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cookie-signature",
+                    "name": "cookie-signature",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/copy-concurrently",
+                    "name": "copy-concurrently",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/copy-descriptor",
+                    "name": "copy-descriptor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/core-js",
+                    "name": "core-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/core-util-is",
+                    "name": "core-util-is",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/create-ecdh",
+                    "name": "create-ecdh",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/create-hash",
+                    "name": "create-hash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/create-hmac",
+                    "name": "create-hmac",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cross-spawn",
+                    "name": "cross-spawn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/crypto-browserify",
+                    "name": "crypto-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/css-color-names",
+                    "name": "css-color-names",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/css-loader",
+                    "name": "css-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/css-select",
+                    "name": "css-select",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/css-selector-tokenizer",
+                    "name": "css-selector-tokenizer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/css-what",
+                    "name": "css-what",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cssesc",
+                    "name": "cssesc",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cssnano",
+                    "name": "cssnano",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/csso",
+                    "name": "csso",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/currently-unhandled",
+                    "name": "currently-unhandled",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/cyclist",
+                    "name": "cyclist",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dashdash",
+                    "name": "dashdash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/debug",
+                    "name": "debug",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/decamelize",
+                    "name": "decamelize",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/decode-uri-component",
+                    "name": "decode-uri-component",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/deep-equal",
+                    "name": "deep-equal",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/deep-is",
+                    "name": "deep-is",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/default-gateway",
+                    "name": "default-gateway",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/define-properties",
+                    "name": "define-properties",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/define-property",
+                    "name": "define-property",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/defined",
+                    "name": "defined",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/del",
+                    "name": "del",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/delayed-stream",
+                    "name": "delayed-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/delegates",
+                    "name": "delegates",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/depd",
+                    "name": "depd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/des.js",
+                    "name": "des.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/destroy",
+                    "name": "destroy",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/detect-file",
+                    "name": "detect-file",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/detect-indent",
+                    "name": "detect-indent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/detect-node",
+                    "name": "detect-node",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/diffie-hellman",
+                    "name": "diffie-hellman",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dns-equal",
+                    "name": "dns-equal",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dns-packet",
+                    "name": "dns-packet",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dns-txt",
+                    "name": "dns-txt",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/doctrine",
+                    "name": "doctrine",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dom-converter",
+                    "name": "dom-converter",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dom-serializer",
+                    "name": "dom-serializer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/domain-browser",
+                    "name": "domain-browser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/domelementtype",
+                    "name": "domelementtype",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/domhandler",
+                    "name": "domhandler",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/domutils",
+                    "name": "domutils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/dot-case",
+                    "name": "dot-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/duplexify",
+                    "name": "duplexify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ecc-jsbn",
+                    "name": "ecc-jsbn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ee-first",
+                    "name": "ee-first",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/electron-to-chromium",
+                    "name": "electron-to-chromium",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/elliptic",
+                    "name": "elliptic",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/emoji-regex",
+                    "name": "emoji-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/emojis-list",
+                    "name": "emojis-list",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/encodeurl",
+                    "name": "encodeurl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/end-of-stream",
+                    "name": "end-of-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/enhanced-resolve",
+                    "name": "enhanced-resolve",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/entities",
+                    "name": "entities",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/errno",
+                    "name": "errno",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/error-ex",
+                    "name": "error-ex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/es-abstract",
+                    "name": "es-abstract",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/es-to-primitive",
+                    "name": "es-to-primitive",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/escape-html",
+                    "name": "escape-html",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/escape-string-regexp",
+                    "name": "escape-string-regexp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eslint",
+                    "name": "eslint",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eslint-loader",
+                    "name": "eslint-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eslint-plugin-flowtype",
+                    "name": "eslint-plugin-flowtype",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eslint-scope",
+                    "name": "eslint-scope",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eslint-visitor-keys",
+                    "name": "eslint-visitor-keys",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/espree",
+                    "name": "espree",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/esprima",
+                    "name": "esprima",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/esquery",
+                    "name": "esquery",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/esrecurse",
+                    "name": "esrecurse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/estraverse",
+                    "name": "estraverse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/esutils",
+                    "name": "esutils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/etag",
+                    "name": "etag",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eventemitter3",
+                    "name": "eventemitter3",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/events",
+                    "name": "events",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/eventsource",
+                    "name": "eventsource",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/evp_bytestokey",
+                    "name": "evp_bytestokey",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/execa",
+                    "name": "execa",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/expand-brackets",
+                    "name": "expand-brackets",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/expand-tilde",
+                    "name": "expand-tilde",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/express",
+                    "name": "express",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/extend",
+                    "name": "extend",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/extend-shallow",
+                    "name": "extend-shallow",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/external-editor",
+                    "name": "external-editor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/extglob",
+                    "name": "extglob",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/extsprintf",
+                    "name": "extsprintf",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fast-deep-equal",
+                    "name": "fast-deep-equal",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fast-json-stable-stringify",
+                    "name": "fast-json-stable-stringify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fast-levenshtein",
+                    "name": "fast-levenshtein",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fastparse",
+                    "name": "fastparse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/faye-websocket",
+                    "name": "faye-websocket",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/figgy-pudding",
+                    "name": "figgy-pudding",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/figures",
+                    "name": "figures",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/file-entry-cache",
+                    "name": "file-entry-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/file-loader",
+                    "name": "file-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/filename-reserved-regex",
+                    "name": "filename-reserved-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/filenamify",
+                    "name": "filenamify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/filenamify-url",
+                    "name": "filenamify-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fill-range",
+                    "name": "fill-range",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/finalhandler",
+                    "name": "finalhandler",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/find-cache-dir",
+                    "name": "find-cache-dir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/find-up",
+                    "name": "find-up",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/findup-sync",
+                    "name": "findup-sync",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/flat-cache",
+                    "name": "flat-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/flatten",
+                    "name": "flatten",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/flow-bin",
+                    "name": "flow-bin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/flow-webpack-plugin",
+                    "name": "flow-webpack-plugin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/flush-write-stream",
+                    "name": "flush-write-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/follow-redirects",
+                    "name": "follow-redirects",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/for-in",
+                    "name": "for-in",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/forever-agent",
+                    "name": "forever-agent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/form-data",
+                    "name": "form-data",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/forwarded",
+                    "name": "forwarded",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fragment-cache",
+                    "name": "fragment-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fresh",
+                    "name": "fresh",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/from2",
+                    "name": "from2",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fs-exists-sync",
+                    "name": "fs-exists-sync",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fs-extra",
+                    "name": "fs-extra",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fs-write-stream-atomic",
+                    "name": "fs-write-stream-atomic",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fs.realpath",
+                    "name": "fs.realpath",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fstream",
+                    "name": "fstream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/function-bind",
+                    "name": "function-bind",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/functional-red-black-tree",
+                    "name": "functional-red-black-tree",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/gauge",
+                    "name": "gauge",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/gaze",
+                    "name": "gaze",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/get-caller-file",
+                    "name": "get-caller-file",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/get-stdin",
+                    "name": "get-stdin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/get-stream",
+                    "name": "get-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/get-value",
+                    "name": "get-value",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/getpass",
+                    "name": "getpass",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/gh-pages",
+                    "name": "gh-pages",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/git-config-path",
+                    "name": "git-config-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/glob",
+                    "name": "glob",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/glob-parent",
+                    "name": "glob-parent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/global-modules",
+                    "name": "global-modules",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/global-prefix",
+                    "name": "global-prefix",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/globals",
+                    "name": "globals",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/globby",
+                    "name": "globby",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/globule",
+                    "name": "globule",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/graceful-fs",
+                    "name": "graceful-fs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/handle-thing",
+                    "name": "handle-thing",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/har-schema",
+                    "name": "har-schema",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/har-validator",
+                    "name": "har-validator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has",
+                    "name": "has",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-ansi",
+                    "name": "has-ansi",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-flag",
+                    "name": "has-flag",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-symbols",
+                    "name": "has-symbols",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-unicode",
+                    "name": "has-unicode",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-value",
+                    "name": "has-value",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/has-values",
+                    "name": "has-values",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/hash-base",
+                    "name": "hash-base",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/hash.js",
+                    "name": "hash.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/he",
+                    "name": "he",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/hmac-drbg",
+                    "name": "hmac-drbg",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/home-or-tmp",
+                    "name": "home-or-tmp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/homedir-polyfill",
+                    "name": "homedir-polyfill",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/hosted-git-info",
+                    "name": "hosted-git-info",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/hpack.js",
+                    "name": "hpack.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/html-comment-regex",
+                    "name": "html-comment-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/html-entities",
+                    "name": "html-entities",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/html-minifier-terser",
+                    "name": "html-minifier-terser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/html-webpack-plugin",
+                    "name": "html-webpack-plugin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/htmlparser2",
+                    "name": "htmlparser2",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-deceiver",
+                    "name": "http-deceiver",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-errors",
+                    "name": "http-errors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-parser-js",
+                    "name": "http-parser-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-proxy",
+                    "name": "http-proxy",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-proxy-middleware",
+                    "name": "http-proxy-middleware",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/http-signature",
+                    "name": "http-signature",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/https-browserify",
+                    "name": "https-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/humanize-url",
+                    "name": "humanize-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/iconv-lite",
+                    "name": "iconv-lite",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/icss-replace-symbols",
+                    "name": "icss-replace-symbols",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/icss-utils",
+                    "name": "icss-utils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ieee754",
+                    "name": "ieee754",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/iferr",
+                    "name": "iferr",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ignore",
+                    "name": "ignore",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/import-local",
+                    "name": "import-local",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/imurmurhash",
+                    "name": "imurmurhash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/in-publish",
+                    "name": "in-publish",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/indent-string",
+                    "name": "indent-string",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/indexes-of",
+                    "name": "indexes-of",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/infer-owner",
+                    "name": "infer-owner",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/inflight",
+                    "name": "inflight",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/inherits",
+                    "name": "inherits",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ini",
+                    "name": "ini",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/inquirer",
+                    "name": "inquirer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/internal-ip",
+                    "name": "internal-ip",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/interpret",
+                    "name": "interpret",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/invariant",
+                    "name": "invariant",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/invert-kv",
+                    "name": "invert-kv",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ip",
+                    "name": "ip",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ip-regex",
+                    "name": "ip-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ipaddr.js",
+                    "name": "ipaddr.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-absolute-url",
+                    "name": "is-absolute-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-accessor-descriptor",
+                    "name": "is-accessor-descriptor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-arguments",
+                    "name": "is-arguments",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-arrayish",
+                    "name": "is-arrayish",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-binary-path",
+                    "name": "is-binary-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-buffer",
+                    "name": "is-buffer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-builtin-module",
+                    "name": "is-builtin-module",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-callable",
+                    "name": "is-callable",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-data-descriptor",
+                    "name": "is-data-descriptor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-date-object",
+                    "name": "is-date-object",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-descriptor",
+                    "name": "is-descriptor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-extendable",
+                    "name": "is-extendable",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-extglob",
+                    "name": "is-extglob",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-finite",
+                    "name": "is-finite",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-fullwidth-code-point",
+                    "name": "is-fullwidth-code-point",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-glob",
+                    "name": "is-glob",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-number",
+                    "name": "is-number",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-path-cwd",
+                    "name": "is-path-cwd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-path-in-cwd",
+                    "name": "is-path-in-cwd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-path-inside",
+                    "name": "is-path-inside",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-plain-obj",
+                    "name": "is-plain-obj",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-plain-object",
+                    "name": "is-plain-object",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-promise",
+                    "name": "is-promise",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-regex",
+                    "name": "is-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-resolvable",
+                    "name": "is-resolvable",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-stream",
+                    "name": "is-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-svg",
+                    "name": "is-svg",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-symbol",
+                    "name": "is-symbol",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-typedarray",
+                    "name": "is-typedarray",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-utf8",
+                    "name": "is-utf8",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-windows",
+                    "name": "is-windows",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/is-wsl",
+                    "name": "is-wsl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/isarray",
+                    "name": "isarray",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/isexe",
+                    "name": "isexe",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/isobject",
+                    "name": "isobject",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/isstream",
+                    "name": "isstream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/jquery",
+                    "name": "jquery",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/js-base64",
+                    "name": "js-base64",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/js-tokens",
+                    "name": "js-tokens",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/js-yaml",
+                    "name": "js-yaml",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/jsbn",
+                    "name": "jsbn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/jsesc",
+                    "name": "jsesc",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json-parse-better-errors",
+                    "name": "json-parse-better-errors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json-schema",
+                    "name": "json-schema",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json-schema-traverse",
+                    "name": "json-schema-traverse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json-stable-stringify-without-jsonify",
+                    "name": "json-stable-stringify-without-jsonify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json-stringify-safe",
+                    "name": "json-stringify-safe",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json3",
+                    "name": "json3",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/json5",
+                    "name": "json5",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/jsonfile",
+                    "name": "jsonfile",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/jsprim",
+                    "name": "jsprim",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/killable",
+                    "name": "killable",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/kind-of",
+                    "name": "kind-of",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lcid",
+                    "name": "lcid",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/levn",
+                    "name": "levn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/load-json-file",
+                    "name": "load-json-file",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loader-fs-cache",
+                    "name": "loader-fs-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loader-runner",
+                    "name": "loader-runner",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loader-utils",
+                    "name": "loader-utils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/locate-path",
+                    "name": "locate-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lodash",
+                    "name": "lodash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lodash.camelcase",
+                    "name": "lodash.camelcase",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lodash.memoize",
+                    "name": "lodash.memoize",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lodash.uniq",
+                    "name": "lodash.uniq",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loglevel",
+                    "name": "loglevel",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loose-envify",
+                    "name": "loose-envify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/loud-rejection",
+                    "name": "loud-rejection",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lower-case",
+                    "name": "lower-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/lru-cache",
+                    "name": "lru-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/make-dir",
+                    "name": "make-dir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/map-age-cleaner",
+                    "name": "map-age-cleaner",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/map-cache",
+                    "name": "map-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/map-obj",
+                    "name": "map-obj",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/map-visit",
+                    "name": "map-visit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/math-expression-evaluator",
+                    "name": "math-expression-evaluator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/md5.js",
+                    "name": "md5.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/media-typer",
+                    "name": "media-typer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mem",
+                    "name": "mem",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/memory-fs",
+                    "name": "memory-fs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/meow",
+                    "name": "meow",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/merge-descriptors",
+                    "name": "merge-descriptors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/methods",
+                    "name": "methods",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/micromatch",
+                    "name": "micromatch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/miller-rabin",
+                    "name": "miller-rabin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mime",
+                    "name": "mime",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mime-db",
+                    "name": "mime-db",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mime-types",
+                    "name": "mime-types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mimic-fn",
+                    "name": "mimic-fn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/minimalistic-assert",
+                    "name": "minimalistic-assert",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/minimalistic-crypto-utils",
+                    "name": "minimalistic-crypto-utils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/minimatch",
+                    "name": "minimatch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/minimist",
+                    "name": "minimist",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mississippi",
+                    "name": "mississippi",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mixin-deep",
+                    "name": "mixin-deep",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mkdirp",
+                    "name": "mkdirp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/move-concurrently",
+                    "name": "move-concurrently",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ms",
+                    "name": "ms",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/multicast-dns",
+                    "name": "multicast-dns",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/multicast-dns-service-types",
+                    "name": "multicast-dns-service-types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/mute-stream",
+                    "name": "mute-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nan",
+                    "name": "nan",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nanomatch",
+                    "name": "nanomatch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/natural-compare",
+                    "name": "natural-compare",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/negotiator",
+                    "name": "negotiator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/neo-async",
+                    "name": "neo-async",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nice-try",
+                    "name": "nice-try",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/no-case",
+                    "name": "no-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/node-forge",
+                    "name": "node-forge",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/node-gyp",
+                    "name": "node-gyp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/node-libs-browser",
+                    "name": "node-libs-browser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/node-sass",
+                    "name": "node-sass",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nopt",
+                    "name": "nopt",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/normalize-package-data",
+                    "name": "normalize-package-data",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/normalize-path",
+                    "name": "normalize-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/normalize-range",
+                    "name": "normalize-range",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/normalize-url",
+                    "name": "normalize-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/npm-run-path",
+                    "name": "npm-run-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/npmlog",
+                    "name": "npmlog",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nth-check",
+                    "name": "nth-check",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/num2fraction",
+                    "name": "num2fraction",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/number-is-nan",
+                    "name": "number-is-nan",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/oauth-sign",
+                    "name": "oauth-sign",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-assign",
+                    "name": "object-assign",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-copy",
+                    "name": "object-copy",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-hash",
+                    "name": "object-hash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-inspect",
+                    "name": "object-inspect",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-is",
+                    "name": "object-is",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-keys",
+                    "name": "object-keys",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object-visit",
+                    "name": "object-visit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object.assign",
+                    "name": "object.assign",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object.getownpropertydescriptors",
+                    "name": "object.getownpropertydescriptors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/object.pick",
+                    "name": "object.pick",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/obuf",
+                    "name": "obuf",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/on-finished",
+                    "name": "on-finished",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/on-headers",
+                    "name": "on-headers",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/once",
+                    "name": "once",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/onetime",
+                    "name": "onetime",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/opn",
+                    "name": "opn",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/optionator",
+                    "name": "optionator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/original",
+                    "name": "original",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/os-browserify",
+                    "name": "os-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/os-homedir",
+                    "name": "os-homedir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/os-locale",
+                    "name": "os-locale",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/os-tmpdir",
+                    "name": "os-tmpdir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/osenv",
+                    "name": "osenv",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-defer",
+                    "name": "p-defer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-finally",
+                    "name": "p-finally",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-is-promise",
+                    "name": "p-is-promise",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-limit",
+                    "name": "p-limit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-locate",
+                    "name": "p-locate",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-map",
+                    "name": "p-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-retry",
+                    "name": "p-retry",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/p-try",
+                    "name": "p-try",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pako",
+                    "name": "pako",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parallel-transform",
+                    "name": "parallel-transform",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/param-case",
+                    "name": "param-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parse-asn1",
+                    "name": "parse-asn1",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parse-git-config",
+                    "name": "parse-git-config",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parse-github-url",
+                    "name": "parse-github-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parse-json",
+                    "name": "parse-json",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parse-passwd",
+                    "name": "parse-passwd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/parseurl",
+                    "name": "parseurl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pascal-case",
+                    "name": "pascal-case",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pascalcase",
+                    "name": "pascalcase",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-browserify",
+                    "name": "path-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-dirname",
+                    "name": "path-dirname",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-exists",
+                    "name": "path-exists",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-is-absolute",
+                    "name": "path-is-absolute",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-is-inside",
+                    "name": "path-is-inside",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-key",
+                    "name": "path-key",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-to-regexp",
+                    "name": "path-to-regexp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/path-type",
+                    "name": "path-type",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pbkdf2",
+                    "name": "pbkdf2",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/performance-now",
+                    "name": "performance-now",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pify",
+                    "name": "pify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pinkie",
+                    "name": "pinkie",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pinkie-promise",
+                    "name": "pinkie-promise",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pkg-dir",
+                    "name": "pkg-dir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pluralize",
+                    "name": "pluralize",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/popper.js",
+                    "name": "popper.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/portfinder",
+                    "name": "portfinder",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/posix-character-classes",
+                    "name": "posix-character-classes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss",
+                    "name": "postcss",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-calc",
+                    "name": "postcss-calc",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-colormin",
+                    "name": "postcss-colormin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-convert-values",
+                    "name": "postcss-convert-values",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-discard-comments",
+                    "name": "postcss-discard-comments",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-discard-duplicates",
+                    "name": "postcss-discard-duplicates",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-discard-empty",
+                    "name": "postcss-discard-empty",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-discard-overridden",
+                    "name": "postcss-discard-overridden",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-discard-unused",
+                    "name": "postcss-discard-unused",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-filter-plugins",
+                    "name": "postcss-filter-plugins",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-merge-idents",
+                    "name": "postcss-merge-idents",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-merge-longhand",
+                    "name": "postcss-merge-longhand",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-merge-rules",
+                    "name": "postcss-merge-rules",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-message-helpers",
+                    "name": "postcss-message-helpers",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-minify-font-values",
+                    "name": "postcss-minify-font-values",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-minify-gradients",
+                    "name": "postcss-minify-gradients",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-minify-params",
+                    "name": "postcss-minify-params",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-minify-selectors",
+                    "name": "postcss-minify-selectors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-modules-extract-imports",
+                    "name": "postcss-modules-extract-imports",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-modules-local-by-default",
+                    "name": "postcss-modules-local-by-default",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-modules-scope",
+                    "name": "postcss-modules-scope",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-modules-values",
+                    "name": "postcss-modules-values",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-normalize-charset",
+                    "name": "postcss-normalize-charset",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-normalize-url",
+                    "name": "postcss-normalize-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-ordered-values",
+                    "name": "postcss-ordered-values",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-reduce-idents",
+                    "name": "postcss-reduce-idents",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-reduce-initial",
+                    "name": "postcss-reduce-initial",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-reduce-transforms",
+                    "name": "postcss-reduce-transforms",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-selector-parser",
+                    "name": "postcss-selector-parser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-svgo",
+                    "name": "postcss-svgo",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-unique-selectors",
+                    "name": "postcss-unique-selectors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-value-parser",
+                    "name": "postcss-value-parser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss-zindex",
+                    "name": "postcss-zindex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/prelude-ls",
+                    "name": "prelude-ls",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/prepend-http",
+                    "name": "prepend-http",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/prettier",
+                    "name": "prettier",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/prettier-webpack-plugin",
+                    "name": "prettier-webpack-plugin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pretty-error",
+                    "name": "pretty-error",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/private",
+                    "name": "private",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/process",
+                    "name": "process",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/process-nextick-args",
+                    "name": "process-nextick-args",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/progress",
+                    "name": "progress",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/promise-inflight",
+                    "name": "promise-inflight",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/proxy-addr",
+                    "name": "proxy-addr",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/prr",
+                    "name": "prr",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pseudomap",
+                    "name": "pseudomap",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/psl",
+                    "name": "psl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/public-encrypt",
+                    "name": "public-encrypt",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pump",
+                    "name": "pump",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/pumpify",
+                    "name": "pumpify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/punycode",
+                    "name": "punycode",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/q",
+                    "name": "q",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/qs",
+                    "name": "qs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/query-string",
+                    "name": "query-string",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/querystring",
+                    "name": "querystring",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/querystring-es3",
+                    "name": "querystring-es3",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/querystringify",
+                    "name": "querystringify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/randombytes",
+                    "name": "randombytes",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/randomfill",
+                    "name": "randomfill",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/range-parser",
+                    "name": "range-parser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/raw-body",
+                    "name": "raw-body",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/read-pkg",
+                    "name": "read-pkg",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/read-pkg-up",
+                    "name": "read-pkg-up",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/readable-stream",
+                    "name": "readable-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/readdirp",
+                    "name": "readdirp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/redent",
+                    "name": "redent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/reduce-css-calc",
+                    "name": "reduce-css-calc",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/reduce-function-call",
+                    "name": "reduce-function-call",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regenerate",
+                    "name": "regenerate",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regenerator-runtime",
+                    "name": "regenerator-runtime",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regenerator-transform",
+                    "name": "regenerator-transform",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regex-not",
+                    "name": "regex-not",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regexp.prototype.flags",
+                    "name": "regexp.prototype.flags",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regexpp",
+                    "name": "regexpp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regexpu-core",
+                    "name": "regexpu-core",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regjsgen",
+                    "name": "regjsgen",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/regjsparser",
+                    "name": "regjsparser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/relateurl",
+                    "name": "relateurl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/remote-origin-url",
+                    "name": "remote-origin-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/remove-trailing-separator",
+                    "name": "remove-trailing-separator",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/renderkid",
+                    "name": "renderkid",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/repeat-element",
+                    "name": "repeat-element",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/repeat-string",
+                    "name": "repeat-string",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/repeating",
+                    "name": "repeating",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/request",
+                    "name": "request",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/require-directory",
+                    "name": "require-directory",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/require-main-filename",
+                    "name": "require-main-filename",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/require-uncached",
+                    "name": "require-uncached",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/requires-port",
+                    "name": "requires-port",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/resolve-cwd",
+                    "name": "resolve-cwd",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/resolve-dir",
+                    "name": "resolve-dir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/resolve-from",
+                    "name": "resolve-from",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/resolve-url",
+                    "name": "resolve-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/restore-cursor",
+                    "name": "restore-cursor",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ret",
+                    "name": "ret",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/retry",
+                    "name": "retry",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/rimraf",
+                    "name": "rimraf",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ripemd160",
+                    "name": "ripemd160",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/run-async",
+                    "name": "run-async",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/run-queue",
+                    "name": "run-queue",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/rx-lite",
+                    "name": "rx-lite",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/rx-lite-aggregates",
+                    "name": "rx-lite-aggregates",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/safe-buffer",
+                    "name": "safe-buffer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/safe-regex",
+                    "name": "safe-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/safer-buffer",
+                    "name": "safer-buffer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sass-graph",
+                    "name": "sass-graph",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sass-loader",
+                    "name": "sass-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sax",
+                    "name": "sax",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/schema-utils",
+                    "name": "schema-utils",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/scss-tokenizer",
+                    "name": "scss-tokenizer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/select-hose",
+                    "name": "select-hose",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/selfsigned",
+                    "name": "selfsigned",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/semver",
+                    "name": "semver",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/send",
+                    "name": "send",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/serialize-javascript",
+                    "name": "serialize-javascript",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/serve-index",
+                    "name": "serve-index",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/serve-static",
+                    "name": "serve-static",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/set-blocking",
+                    "name": "set-blocking",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/set-value",
+                    "name": "set-value",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/setimmediate",
+                    "name": "setimmediate",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/setprototypeof",
+                    "name": "setprototypeof",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sha.js",
+                    "name": "sha.js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/shallow-clone",
+                    "name": "shallow-clone",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/shebang-command",
+                    "name": "shebang-command",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/shebang-regex",
+                    "name": "shebang-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/signal-exit",
+                    "name": "signal-exit",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/slash",
+                    "name": "slash",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/slice-ansi",
+                    "name": "slice-ansi",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/snapdragon",
+                    "name": "snapdragon",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/snapdragon-node",
+                    "name": "snapdragon-node",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/snapdragon-util",
+                    "name": "snapdragon-util",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sockjs",
+                    "name": "sockjs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sockjs-client",
+                    "name": "sockjs-client",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sort-keys",
+                    "name": "sort-keys",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-list-map",
+                    "name": "source-list-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-map",
+                    "name": "source-map",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-map-resolve",
+                    "name": "source-map-resolve",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-map-support",
+                    "name": "source-map-support",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-map-url",
+                    "name": "source-map-url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdx-correct",
+                    "name": "spdx-correct",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdx-exceptions",
+                    "name": "spdx-exceptions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdx-expression-parse",
+                    "name": "spdx-expression-parse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdx-license-ids",
+                    "name": "spdx-license-ids",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdy",
+                    "name": "spdy",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/spdy-transport",
+                    "name": "spdy-transport",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/split-string",
+                    "name": "split-string",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sprintf-js",
+                    "name": "sprintf-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/sshpk",
+                    "name": "sshpk",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ssri",
+                    "name": "ssri",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/static-extend",
+                    "name": "static-extend",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/statuses",
+                    "name": "statuses",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/stdout-stream",
+                    "name": "stdout-stream",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/stream-browserify",
+                    "name": "stream-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/stream-each",
+                    "name": "stream-each",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/stream-http",
+                    "name": "stream-http",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/stream-shift",
+                    "name": "stream-shift",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strict-uri-encode",
+                    "name": "strict-uri-encode",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string-width",
+                    "name": "string-width",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string.prototype.trimend",
+                    "name": "string.prototype.trimend",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string.prototype.trimleft",
+                    "name": "string.prototype.trimleft",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string.prototype.trimright",
+                    "name": "string.prototype.trimright",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string.prototype.trimstart",
+                    "name": "string.prototype.trimstart",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/string_decoder",
+                    "name": "string_decoder",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-ansi",
+                    "name": "strip-ansi",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-bom",
+                    "name": "strip-bom",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-eof",
+                    "name": "strip-eof",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-indent",
+                    "name": "strip-indent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-json-comments",
+                    "name": "strip-json-comments",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-outer",
+                    "name": "strip-outer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/strip-url-auth",
+                    "name": "strip-url-auth",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/style-loader",
+                    "name": "style-loader",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/supports-color",
+                    "name": "supports-color",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/svgo",
+                    "name": "svgo",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/table",
+                    "name": "table",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tapable",
+                    "name": "tapable",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tar",
+                    "name": "tar",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/terser",
+                    "name": "terser",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/terser-webpack-plugin",
+                    "name": "terser-webpack-plugin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/text-table",
+                    "name": "text-table",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/through",
+                    "name": "through",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/through2",
+                    "name": "through2",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/thunky",
+                    "name": "thunky",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/timers-browserify",
+                    "name": "timers-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tmp",
+                    "name": "tmp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/to-arraybuffer",
+                    "name": "to-arraybuffer",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/to-fast-properties",
+                    "name": "to-fast-properties",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/to-object-path",
+                    "name": "to-object-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/to-regex",
+                    "name": "to-regex",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/to-regex-range",
+                    "name": "to-regex-range",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/toidentifier",
+                    "name": "toidentifier",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tough-cookie",
+                    "name": "tough-cookie",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/trim-newlines",
+                    "name": "trim-newlines",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/trim-repeated",
+                    "name": "trim-repeated",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/trim-right",
+                    "name": "trim-right",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/true-case-path",
+                    "name": "true-case-path",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tslib",
+                    "name": "tslib",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tty-browserify",
+                    "name": "tty-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tunnel-agent",
+                    "name": "tunnel-agent",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tweetnacl",
+                    "name": "tweetnacl",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/type-check",
+                    "name": "type-check",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/type-is",
+                    "name": "type-is",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/typedarray",
+                    "name": "typedarray",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/union-value",
+                    "name": "union-value",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/uniq",
+                    "name": "uniq",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/uniqs",
+                    "name": "uniqs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/unique-filename",
+                    "name": "unique-filename",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/unique-slug",
+                    "name": "unique-slug",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/universalify",
+                    "name": "universalify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/unpipe",
+                    "name": "unpipe",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/unset-value",
+                    "name": "unset-value",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/upath",
+                    "name": "upath",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/uri-js",
+                    "name": "uri-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/urix",
+                    "name": "urix",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/url",
+                    "name": "url",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/url-parse",
+                    "name": "url-parse",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/use",
+                    "name": "use",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/util",
+                    "name": "util",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/util-deprecate",
+                    "name": "util-deprecate",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/util.promisify",
+                    "name": "util.promisify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/utila",
+                    "name": "utila",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/utils-merge",
+                    "name": "utils-merge",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/uuid",
+                    "name": "uuid",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/v8-compile-cache",
+                    "name": "v8-compile-cache",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/validate-npm-package-license",
+                    "name": "validate-npm-package-license",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/vary",
+                    "name": "vary",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/vendors",
+                    "name": "vendors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/verror",
+                    "name": "verror",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/vm-browserify",
+                    "name": "vm-browserify",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/watchpack",
+                    "name": "watchpack",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/wbuf",
+                    "name": "wbuf",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack",
+                    "name": "webpack",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack-cli",
+                    "name": "webpack-cli",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack-dev-middleware",
+                    "name": "webpack-dev-middleware",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack-dev-server",
+                    "name": "webpack-dev-server",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack-log",
+                    "name": "webpack-log",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/webpack-sources",
+                    "name": "webpack-sources",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/websocket-driver",
+                    "name": "websocket-driver",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/websocket-extensions",
+                    "name": "websocket-extensions",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/whet.extend",
+                    "name": "whet.extend",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/which",
+                    "name": "which",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/which-module",
+                    "name": "which-module",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/wide-align",
+                    "name": "wide-align",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/wordwrap",
+                    "name": "wordwrap",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/worker-farm",
+                    "name": "worker-farm",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/wrap-ansi",
+                    "name": "wrap-ansi",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/wrappy",
+                    "name": "wrappy",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/write",
+                    "name": "write",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/ws",
+                    "name": "ws",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/xtend",
+                    "name": "xtend",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/y18n",
+                    "name": "y18n",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/yallist",
+                    "name": "yallist",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/yargs",
+                    "name": "yargs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/yargs-parser",
+                    "name": "yargs-parser",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "public",
+            "slug": "public",
+            "translations": {},
+            "language": "node",
+            "entry": null,
+            "title": "public",
+            "graded": false,
+            "files": [
+                {
+                    "path": "public/assets",
+                    "name": "assets",
+                    "hidden": true
+                },
+                {
+                    "path": "public/bundle.js",
+                    "name": "bundle.js",
+                    "hidden": false
+                },
+                {
+                    "path": "public/bundle.js.map",
+                    "name": "bundle.js.map",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "html",
+            "entry": "src/index.html",
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "src/js",
+                    "name": "js",
+                    "hidden": true
+                },
+                {
+                    "path": "src/style",
+                    "name": "style",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
+}
